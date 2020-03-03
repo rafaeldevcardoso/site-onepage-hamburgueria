@@ -1,0 +1,133 @@
+/* -----------------------------------*/
+/* ---------->>> GLOBAL <<<-----------*/
+/* -----------------------------------*/
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*deixa o fundo fixo*/
+    height: 1080px; /*vh = Viewport Height*/
+    margin: auto;
+          
+}
+
+.geral{
+    min-height:100%;
+    position:relative;
+}
+
+
+/* ---------->>> CABEÇALHO <<<----------- */
+
+header {
+    background-color:#000000;
+    height: 250px;
+    width: 100%;
+    opacity: 100%;
+    overflow: hidden;
+}
+
+.logo{
+    height: 280px;
+    width: 280px;
+    margin: -15px 0px 0px 60px;
+    float: left;
+    
+}
+
+h3 {
+    position: absolute;
+    text-size-adjust: 50px;
+    text-align: right;
+}
+
+
+/* ---------->>> MENU <<<----------- */
+#menu{
+    
+}
+
+#menu ul{
+    height: 50px;
+    margin: 0px;
+    background-color:yellow;
+    list-style: none; /* tira o ponto dos itens da lista */
+    text-align: center;
+}
+
+#menu ul li{
+    display: inline; /* Deixa os itens da lista na horizontal */
+}
+
+#menu ul li a{
+    padding: 15px 10px;
+    display: inline-block;
+    text-decoration: none; /* tira o sublinhado*/
+    color: #000000;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#menu ul li a:hover{
+    color: #ff0000;
+}
+
+
+/* ---------->>> SECTIONS <<<----------- */
+.sect1{
+
+    height: 400px;
+    background-color:#FF0000;
+    opacity: 50%;
+}
+
+.sect2{
+    height: 400px;
+    background-color: blue;
+    opacity: 10%;
+}
+
+.sect3{
+    height: 400px;
+    background-color: green;
+    opacity: 50%;
+}
+
+.sect4{
+    height: 1040px;
+    background-color: grey;
+    opacity: 50%;
+}
+
+
+/* ---------->>> RODAPÉ <<<----------- */
+footer{
+    background-color:#565656;
+    height: 230px;
+    width: 100%;
+    bottom: 0;
+    color: #fff; /*IMPORTA: não é o jeito certo de mudar a cor da fonte, tem que criar*/    
+}
+
+#btnTop{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    height: 80px;
+    width: 80px;
+    color:#FF0000;
+    background: #333333;
+    border: none;
+    border-radius: 50vh;
+    display: none; /*o botão ficará invisivel*/
+}
+
+.setop{
+    height: 75%;
+    width: 75%;
+}

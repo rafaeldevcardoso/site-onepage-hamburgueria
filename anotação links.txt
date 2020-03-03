@@ -1,0 +1,26 @@
+
+https://pt.stackoverflow.com/questions/299074/como-coloco-o-background-na-tela-inteira-css
+https://pt.stackoverflow.com/questions/183132/como-fazer-uma-imagem-de-fundo-preencher-a-tela-inteira-sem-perder-a-resolu%C3%A7%C3%A3o-d
+https://www.sitepoint.com/css-viewport-units-quick-start/
+https://willianjusten.com.br/background-fixo-com-css/
+
+Organização do CSS:
+https://tableless.com.br/6-estrategias-para-melhorar-a-organizacao-do-seu-css-2/
+https://www.google.com/search?client=firefox-b-d&q=como+organizar+o+CSS
+
+
+
+Dicas sobre o Footer
+https://www.homemmaquina.com.br/dicas-rodape/
+
+
+CSS para o menu horizontal:
+https://www.youtube.com/watch?v=Mn-H_69847Y
+https://www.youtube.com/watch?v=_CVsdOz8A7k&t=327s
+
+
+Botão voltar ao topo com JS
+https://www.youtube.com/watch?v=1CmpbiXv4Ng
+
+
+Como fazer Slide Carrocel
