@@ -3,7 +3,7 @@ window.onscroll = function(){
 };
 function scroll(){
     let btn = document.getElementById("btnTop")
-    if (document.documentElement.scrollTop > 70){
+    if (document.documentElement.scrollTop > 570){
         btn.style.display = "block";
     }else{
         btn.style.display ="none";

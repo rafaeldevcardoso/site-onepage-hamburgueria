@@ -24,7 +24,7 @@ body {
 /* ---------->>> CABEÇALHO <<<----------- */
 
 header {
-    background-color:#000000;
+    margin: 0px 0px 0px 0px;
     height: 250px;
     width: 100%;
     opacity: 100%;
@@ -32,10 +32,10 @@ header {
 }
 
 .logo{
-    height: 280px;
-    width: 280px;
-    margin: -15px 0px 0px 60px;
-    float: left;
+    height: 380px;
+    width: 380px;
+    margin: 0px 0px 0px 0px;
+    
     
 }
 
@@ -48,13 +48,12 @@ h3 {
 
 /* ---------->>> MENU <<<----------- */
 #menu{
-    
+    margin: 0px 0px 250px 0px;
 }
 
 #menu ul{
-    height: 50px;
+    height: 40px;
     margin: 0px;
-    background-color:yellow;
     list-style: none; /* tira o ponto dos itens da lista */
     text-align: center;
 }
@@ -64,7 +63,7 @@ h3 {
 }
 
 #menu ul li a{
-    padding: 15px 10px;
+    padding: 10px 10px;
     display: inline-block;
     text-decoration: none; /* tira o sublinhado*/
     color: #000000;
@@ -78,19 +77,72 @@ h3 {
 
 
 /* ---------->>> SECTIONS <<<----------- */
+
+            /* CARTE */
 .sect1{
+    height: 800px;
+    background-color: #000000;
+    background: url(img/backgroundcard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+    
+  }
 
-    height: 400px;
-    background-color:#FF0000;
-    opacity: 50%;
-}
+  .divsect1{
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 30px;
+  }
 
+  .card1{
+    margin: 0px 50px 0px 200px;
+  }
+  .card2{
+    margin-left: 50px;
+  }
+  .card3{
+    margin: 0px 50px 0px 200px;
+  }
+  .card4{
+    margin-left: 50px;
+  }
+
+            /* HISTORY */
 .sect2{
+
     height: 400px;
-    background-color: blue;
-    opacity: 10%;
+    margin-top: 0 auto;
+    background-color: #eeff00;
+    opacity: 80%;
+}
+            
+.divsect2{
+    margin: 0 auto;
+    width: 65%;
+                
+}
+            
+.fotohist{
+    margin: 0 auto;
+    margin-top: 20px;
+    float: left; /*colocou a foto ao lado do texto*/
+    border: #fff;
+    border-style: dashed;
+    border-radius: 10px;
+}
+            
+.texthistoria{
+    padding: 22px;
+    margin-left: 400px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;    
 }
 
+            /*        */
 .sect3{
     height: 400px;
     background-color: green;
@@ -107,17 +159,23 @@ h3 {
 /* ---------->>> RODAPÉ <<<----------- */
 footer{
     background-color:#565656;
-    height: 230px;
+    height: 140px;
     width: 100%;
     bottom: 0;
     color: #fff; /*IMPORTA: não é o jeito certo de mudar a cor da fonte, tem que criar*/    
+}
+
+.rdp{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #btnTop{
     position: fixed;
     bottom: 20px;
     right: 20px;
-
     height: 80px;
     width: 80px;
     color:#FF0000;
